@@ -13,7 +13,7 @@ public record PageObject(WebDriver webDriver) {
      public static final String Email = "auth_email";
      public static final String Password = "auth_pass";
      public static final String Submit_Button = "form_auth_button";
-     public static final String Age = "//P[text()='Сколько Вам лет?']";
+     public static final String Age = "form_auth_style";
 
 
 

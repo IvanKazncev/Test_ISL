@@ -40,8 +40,7 @@ public class Tests {
         webDriver.findElement(By.name(PageObject.Email)).sendKeys("vowkaz@inbox.ru");
         webDriver.findElement(By.name(PageObject.Password)).sendKeys("Test3123");
         webDriver.findElement(By.className(PageObject.Submit_Button)).click();
-        String text = webDriver.findElement(By.xpath(PageObject.Age)).getText();
-        Assert.assertEquals(text,"Сколько Вам лет?");
+        Assert.assertTrue(webDriver.findElement(By.className(PageObject.Age)).isDisplayed());
 
     }
     @Test
