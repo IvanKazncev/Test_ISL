@@ -8,6 +8,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public record PageObject(WebDriver webDriver) {
+
      public static final String StartURL = "http://u920152e.beget.tech/";
      public static final String Avitorization = "form_auth_block_head_text";
      public static final String Email = "auth_email";
